@@ -3,11 +3,7 @@
 
 import { useState } from 'react'
 import { Control, Controller, FieldError } from 'react-hook-form'
-import {
-  Popover,
-  PopoverContent,
-  PopoverTrigger,
-} from '@/components/ui/popover'
+import { Popover, PopoverContent, PopoverTrigger } from '../ui/popover'
 import {
   Command,
   CommandEmpty,
@@ -15,9 +11,9 @@ import {
   CommandInput,
   CommandItem,
   CommandList,
-} from '@/components/ui/command'
+} from '../ui/command'
 import { Button } from '@/components/ui/button'
-import { Label } from '@/components/ui/label'
+import { Label } from '../ui/label'
 import { Check, ChevronsUpDown } from 'lucide-react'
 import { cn } from '@/lib/utils'
 import countryList from 'react-select-country-list'

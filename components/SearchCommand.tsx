@@ -6,7 +6,7 @@ import {
   CommandEmpty,
   CommandInput,
   CommandList,
-} from '@/components/ui/command'
+} from './ui/command'
 import { Button } from '@/components/ui/button'
 import { Loader2, TrendingUp } from 'lucide-react'
 import Link from 'next/link'
